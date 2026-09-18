@@ -1,0 +1,18 @@
+# ESP32 DEVICE
+user esp32_device
+
+# ESP32 may publish telemetry to Ditto
+topic write indoor/ditto
+
+# ESP32 may receive actuator commands
+topic read indoor/commands
+
+
+# ECLIPSE DITTO SERVICE
+user ditto_service
+
+# Ditto may receive telemetry
+topic read indoor/ditto
+
+# Ditto may send actuator commands
+topic write indoor/commands

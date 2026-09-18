@@ -1,0 +1,12 @@
+Measurement,Value
+Messages sent,200
+Messages received,200
+Delivery rate (%),100.0
+Publisher connection (ms),1013.2965
+Subscriber connection (ms),1021.2719
+Mean latency (ms),1.6611535
+Median latency (ms),1.596
+Minimum latency (ms),0.7913
+Maximum latency (ms),3.0476
+95th percentile (ms),2.4025
+Standard deviation (ms),0.406895699830377
